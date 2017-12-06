@@ -29,7 +29,7 @@ int main()
 		CMatrix B(f1);				//Read the matrix data from file matrix.dat
 		f1.close();				//First two values in this file specify the matrix dimensions
 		cout << B << endl;
-
+ 
 		S = B;						//Assign B to S
 		S[0][0] = 1.4;					//Modify S
 		cout << "S[0][0]=" << S[0][0] << endl;		//Verify S
